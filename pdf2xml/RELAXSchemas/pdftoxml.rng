@@ -17,6 +17,9 @@
    </a:cvs-header>
   <a:cvs-log>
     $Log$
+    Revision 1.3  2010/04/26 09:29:41  dejean
+    ADD PAGES BOXES
+
     Revision 1.2  2008/02/06 10:48:28  dejean
     TOKEN/@type added (LR direction)
     some modif about yes, no , true, false attribute values.
@@ -293,13 +296,11 @@ as a Page can be xincluded, it must accept the xml:base attribute </a:documentat
     </attribute>
   </define>
   <define name="c-boxes">
-    <choice>
-      <ref name="c-mediabox"/>
-      <ref name="c-trimbox"/>
-      <ref name="c-cropbox"/>
-      <ref name="c-bleedbox"/>
-      <ref name="c-artbox"/>
-    </choice>
+    <ref name="c-mediabox"/>
+    <ref name="c-cropbox"/>
+    <ref name="c-bleedbox"/>
+    <ref name="c-artbox"/>
+    <ref name="c-trimbox"/>
   </define>
   <define name="c-mediabox">
     <a:documentation>page boxes</a:documentation>
