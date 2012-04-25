@@ -16,6 +16,10 @@ $Id$
 $Name$
 $Locker$
 $Log$
+Revision 1.2  2007/12/14 11:01:16  dejean
+new command line
+new attributes: idx, base
+
 Revision 1.10  2007/12/14 10:07:17  hdejean
 v 1.2 : idx  + base as default attribute
 
@@ -45,7 +49,7 @@ namespace ConstantsUtils
 	const char *NAME_ANNOT = "annot";
 	const char *NAME_DATA_DIR = "_data";
 	
-	const char *PDFTOXML_VERSION = "1.2";
+	const char *PDFTOXML_VERSION = "2.0";
 	const char *PDFTOXML_NAME = "pdftoxml";
 
 }
